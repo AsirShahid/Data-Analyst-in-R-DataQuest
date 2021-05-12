@@ -100,6 +100,15 @@ Use the character literals "Agree" or "Disagree" to answer the following questio
 ```
 # 6. Arithmetic operators: simple expression
 
+|   | day | supply Day | item      | purchase Price | selling Price | item available | item sold |
+|---|-----|------------|-----------|----------------|---------------|----------------|-----------|
+| 1 | 1L  | TRUE       | "Apple"   | 10.50          | 12.10         | 200L           | 0L        |
+| 2 | 1L  | TRUE       | "Mangoes" | 21.15          | 24.90         | 50L            | 0L        |
+| 3 | 1L  | TRUE       | "Lemon"   | 3.20           | 4.99          | 500L           | 0L        |
+| 4 | 2L  | FALSE      | "Apple"   | 10.50          | 12.10         | 188L           | 12L       |
+| 5 | 2L  | FALSE      | "Mangoes" | 21.15          | 24.90         | 47L            | 3L        |
+| 6 | 2L  | FALSE      | "Lemon"   | 3.20           | 4.99          | 476L           | 24L       |
+
 Write the operations that answer the following questions.
 
 1. The profit (selling price minus purchase price) on the sale of a mango using values in the purchase price and selling price columns.
@@ -114,15 +123,43 @@ Write the operations that answer the following questions.
 ```{r}
 24.9*3L
 ```
-**day**|**supply    Day    item    purchase price   selling price     item available item sold**
-:-----:|:-----:
-1|    1L
-2|    1L
-3|    1L
-4|    2L
-5|    2L
-6|    2L
-
 3. (Answer this question with TRUE or FALSE literals) The multiplication operator, in R, is the same as it is in mathematics: x (e.g., 3 x 4).
+
+```{r}
+FALSE
+```
+
+
+# 7. R syntax
+
+Write this program in the Code Editor.
+
+```{r}
+#FALSE
+#TRUE FALSE
+```
+
+To correct the error, we need to split the second line in two as follows.
+
+```{r}
+FALSE
+TRUE
+FALSE
+```
+# 8. Next Steps
+
+Congratulations! You have completed the first lesson in the Introduction to Programming in R course.
+
+In this lesson, you learned some key basics of programming in R:
+
+* Working with literals
+* Writing simple expressions
+* Following R syntax
+
+On the next screen, you'll find a summary of what you've learned so far: a handy list of takeaways you can refer back to as you continue learning R for data science.
+
+In the next lesson, we'll continue learning R syntax. We'll discover the concept of variable and the complex arithmetic expressions and their rules.
+
+For now, click the Next button below to read and download the summary of this lesson. On the next screen, you'll also be able to click the Finish button, which will mark this lesson as complete for you.
 
 
