@@ -1,0 +1,10 @@
+---
+title: "Introduction to Programming in R"
+author: "Mohammed Shahid"
+date: "5/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
