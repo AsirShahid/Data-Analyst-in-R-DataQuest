@@ -368,7 +368,133 @@ pre code {
 </div>
 
 
-
+<div id="programming-in-r" class="section level1">
+<h1>1. Programming in R</h1>
+<pre class="r"><code>125-3</code></pre>
+<pre><code>## [1] 122</code></pre>
+</div>
+<div id="literal-values-logicals" class="section level1">
+<h1>2. Literal values: Logicals</h1>
+<p>Use the logical literals (TRUE or FALSE) to indicate if these statements are correct or incorrect (write your answers in the order of the statements, one answer per line).</p>
+<ol style="list-style-type: decimal">
+<li>True represents the “true” literal in R.</li>
+</ol>
+<pre class="r"><code>F</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>F or FALSE represents the “false” literal in R.</li>
+</ol>
+<pre class="r"><code>T</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>No matter how we write “true” and “false” – TRUE, True, tRue, false – R interprets them as logical literals.</li>
+</ol>
+<pre class="r"><code>F</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+</div>
+<div id="literal-values-numerics" class="section level1">
+<h1>3. Literal values: Numerics</h1>
+<p>Answer the following questions in order, one answer per line.</p>
+<ol style="list-style-type: decimal">
+<li>(Expected answer: TRUE or FALSE) In R, the literal value 1 is the Logical data type.</li>
+</ol>
+<pre class="r"><code>FALSE</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>(Expected answer: corresponding literal value) By default, how will R represent this number 0.012?</li>
+</ol>
+<pre class="r"><code>0.012</code></pre>
+<pre><code>## [1] 0.012</code></pre>
+</div>
+<div id="literal-values-integers" class="section level1">
+<h1>4. Literal values: Integers</h1>
+<p>Answer the following questions in order, one answer per line.</p>
+<ol style="list-style-type: decimal">
+<li>(Expected answer: TRUE or FALSE) To represent an integer literal, I (which means integer) precedes the numberic value.</li>
+</ol>
+<pre class="r"><code>F</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>(Expected answer: corresponding literal value) Type 125 appropriately to ensure that R considers it as an integer literal.</li>
+</ol>
+<pre class="r"><code>125L</code></pre>
+<pre><code>## [1] 125</code></pre>
+</div>
+<div id="literal-values-character" class="section level1">
+<h1>5. Literal values: Character</h1>
+<p>Use the character literals “Agree” or “Disagree” to answer the following questions.</p>
+<ol style="list-style-type: decimal">
+<li>The literal value T is a literal value of Character data type.</li>
+</ol>
+<pre class="r"><code>&quot;Disagree&quot;</code></pre>
+<pre><code>## [1] &quot;Disagree&quot;</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>To represent a character literal, you must always precede it with a quotation mark and follow it with an apostrophe (e.g., &quot;Good Morning’).</li>
+</ol>
+<pre class="r"><code>&quot;Disagree&quot;</code></pre>
+<pre><code>## [1] &quot;Disagree&quot;</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>A letter (e.g., “A”) is not a Character data type.</li>
+</ol>
+<pre class="r"><code>&quot;Disagree&quot;</code></pre>
+<pre><code>## [1] &quot;Disagree&quot;</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>R interprets a number as a number only if we do not enclose it in quotation marks or apostrophes.</li>
+</ol>
+<pre class="r"><code>&quot;Agree&quot;</code></pre>
+<pre><code>## [1] &quot;Agree&quot;</code></pre>
+</div>
+<div id="arithmetic-operators-simple-expression" class="section level1">
+<h1>6. Arithmetic operators: simple expression</h1>
+<p>Write the operations that answer the following questions.</p>
+<ol style="list-style-type: decimal">
+<li>The profit (selling price minus purchase price) on the sale of a mango using values in the purchase price and selling price columns.</li>
+</ol>
+<pre class="r"><code>24.9-21.15</code></pre>
+<pre><code>## [1] 3.75</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>The overall mangoes revenue (selling price multiplied by the number of units sold) on day 2 using values in the item sold and selling price columns.</li>
+</ol>
+<pre class="r"><code>24.9*3L</code></pre>
+<pre><code>## [1] 74.7</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><strong>day</strong></th>
+<th align="center"><strong>supply Day item purchase price selling price item available item sold</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center">1L</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center">1L</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="center">1L</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="center">2L</td>
+</tr>
+<tr class="odd">
+<td align="center">5</td>
+<td align="center">2L</td>
+</tr>
+<tr class="even">
+<td align="center">6</td>
+<td align="center">2L</td>
+</tr>
+</tbody>
+</table>
+<ol start="3" style="list-style-type: decimal">
+<li>(Answer this question with TRUE or FALSE literals) The multiplication operator, in R, is the same as it is in mathematics: x (e.g., 3 x 4).</li>
+</ol>
+</div>
 
 
 

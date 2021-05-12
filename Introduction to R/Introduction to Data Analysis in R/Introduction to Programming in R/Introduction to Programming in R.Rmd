@@ -8,3 +8,121 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# 1. Programming in R
+
+```{r}
+125-3
+```
+# 2. Literal values: Logicals
+
+Use the logical literals (TRUE or FALSE) to indicate if these statements are correct or incorrect (write your answers in the order of the statements, one answer per line).
+
+1. True represents the "true" literal in R.
+
+```{r}
+F
+```
+
+2. F or FALSE represents the "false" literal in R.
+
+```{r}
+T
+```
+
+3. No matter how we write "true" and "false" – TRUE, True, tRue, false – R interprets them as logical literals.
+
+```{r}
+F
+```
+# 3. Literal values: Numerics
+
+Answer the following questions in order, one answer per line.
+
+1. (Expected answer: TRUE or FALSE) In R, the literal value 1 is the Logical data type.
+
+```{r}
+FALSE
+```
+
+
+2. (Expected answer: corresponding literal value) By default, how will R represent this number 0.012?
+
+```{r}
+0.012
+```
+
+
+
+# 4. Literal values: Integers
+
+Answer the following questions in order, one answer per line.
+
+1. (Expected answer: TRUE or FALSE) To represent an integer literal, I (which means integer) precedes the numberic value.
+
+```{r}
+F
+```
+
+2. (Expected answer: corresponding literal value) Type 125 appropriately to ensure that R considers it as an integer literal.
+
+```{r}
+125L
+```
+# 5. Literal values: Character
+
+Use the character literals "Agree" or "Disagree" to answer the following questions.
+
+1. The literal value T is a literal value of Character data type.
+
+```{r}
+"Disagree"
+```
+
+
+2. To represent a character literal, you must always precede it with a quotation mark and follow it with an apostrophe (e.g., "Good Morning').
+
+```{r}
+"Disagree"
+```
+
+
+3. A letter (e.g., "A") is not a Character data type.
+
+```{r}
+"Disagree"
+```
+
+
+4. R interprets a number as a number only if we do not enclose it in quotation marks or apostrophes.
+
+```{r}
+"Agree"
+```
+# 6. Arithmetic operators: simple expression
+
+Write the operations that answer the following questions.
+
+1. The profit (selling price minus purchase price) on the sale of a mango using values in the purchase price and selling price columns.
+
+```{r}
+24.9-21.15
+```
+
+
+2. The overall mangoes revenue (selling price multiplied by the number of units sold) on day 2 using values in the item sold and selling price columns.
+
+```{r}
+24.9*3L
+```
+**day**|**supply    Day    item    purchase price   selling price     item available item sold**
+:-----:|:-----:
+1|    1L
+2|    1L
+3|    1L
+4|    2L
+5|    2L
+6|    2L
+
+3. (Answer this question with TRUE or FALSE literals) The multiplication operator, in R, is the same as it is in mathematics: x (e.g., 3 x 4).
+
+
