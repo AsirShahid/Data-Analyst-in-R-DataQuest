@@ -368,7 +368,308 @@ pre code {
 </div>
 
 
+<div id="revisiting-common-arithmetic-operators" class="section level1">
+<h1>1. Revisiting Common arithmetic operators</h1>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>day</th>
+<th>supply Day</th>
+<th>item</th>
+<th>purchase Price</th>
+<th>selling Price</th>
+<th>item available</th>
+<th>item sold</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>1L</td>
+<td>TRUE</td>
+<td>“Apple”</td>
+<td>10.50</td>
+<td>12.10</td>
+<td>200L</td>
+<td>0L</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>1L</td>
+<td>TRUE</td>
+<td>“Mangoes”</td>
+<td>21.15</td>
+<td>24.90</td>
+<td>50L</td>
+<td>0L</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>1L</td>
+<td>TRUE</td>
+<td>“Lemon”</td>
+<td>3.20</td>
+<td>4.99</td>
+<td>500L</td>
+<td>0L</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>2L</td>
+<td>FALSE</td>
+<td>“Apple”</td>
+<td>10.50</td>
+<td>12.10</td>
+<td>188L</td>
+<td>12L</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>2L</td>
+<td>FALSE</td>
+<td>“Mangoes”</td>
+<td>21.15</td>
+<td>24.90</td>
+<td>47L</td>
+<td>3L</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>2L</td>
+<td>FALSE</td>
+<td>“Lemon”</td>
+<td>3.20</td>
+<td>4.99</td>
+<td>476L</td>
+<td>24L</td>
+</tr>
+</tbody>
+</table>
+<p>Write the operations that answer the following questions.</p>
+<ol style="list-style-type: decimal">
+<li>The total number of mangoes and lemons available in the shop on day 2 using values in the item available column.</li>
+</ol>
+<ul>
+<li>Sum up the number of mangoes (47L) and lemons (476L) on day 2 using the addition operator +.</li>
+</ul>
+<pre class="r"><code>47+476</code></pre>
+<pre><code>## [1] 523</code></pre>
+<p>2.The ratio of the purchase price of lemon against its selling price using values in purchase price and selling price columns.</p>
+<ul>
+<li>Divide the purchase price of lemon (3.20) by its selling price (4.99) using the division operator /.</li>
+</ul>
+<pre class="r"><code>3.20/4.99</code></pre>
+<pre><code>## [1] 0.6412826</code></pre>
+</div>
+<div id="dealing-with-advanced-arithmetic-operators" class="section level1">
+<h1>2. Dealing with Advanced Arithmetic Operators</h1>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>day</th>
+<th>supply Day</th>
+<th>item</th>
+<th>purchase Price</th>
+<th>selling Price</th>
+<th>item available</th>
+<th>item sold</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>1L</td>
+<td>TRUE</td>
+<td>“Apple”</td>
+<td>10.50</td>
+<td>12.10</td>
+<td>200L</td>
+<td>0L</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>1L</td>
+<td>TRUE</td>
+<td>“Mangoes”</td>
+<td>21.15</td>
+<td>24.90</td>
+<td>50L</td>
+<td>0L</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>1L</td>
+<td>TRUE</td>
+<td>“Lemon”</td>
+<td>3.20</td>
+<td>4.99</td>
+<td>500L</td>
+<td>0L</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>2L</td>
+<td>FALSE</td>
+<td>“Apple”</td>
+<td>10.50</td>
+<td>12.10</td>
+<td>188L</td>
+<td>12L</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>2L</td>
+<td>FALSE</td>
+<td>“Mangoes”</td>
+<td>21.15</td>
+<td>24.90</td>
+<td>47L</td>
+<td>3L</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>2L</td>
+<td>FALSE</td>
+<td>“Lemon”</td>
+<td>3.20</td>
+<td>4.99</td>
+<td>476L</td>
+<td>24L</td>
+</tr>
+</tbody>
+</table>
+<p>Write the operations that answer the following questions.</p>
+<ol style="list-style-type: decimal">
+<li>Assuming the selling price of lemon is $5, how many lemons were sold if $128 is reported as the overall selling cost of a day. Use the integer division operator, %/%, to answer this question.</li>
+</ol>
+<pre class="r"><code>128 %/% 5</code></pre>
+<pre><code>## [1] 25</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>(Answer this question with TRUE or FALSE literals instead) The modulo’s operator symbol is %.</li>
+</ol>
+<pre class="r"><code>FALSE</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+</div>
+<div id="using-complex-arithmetic-expression" class="section level1">
+<h1>3. Using Complex Arithmetic Expression</h1>
+<ol style="list-style-type: decimal">
+<li>Your mission is to determine the overall cost of purchasing all fruits on day 1.</li>
+</ol>
+<p>Type in the code editor the following operations.</p>
+<ul>
+<li>The total cost of purchasing apples on day 1: 10.50 * 200L.</li>
+</ul>
+<pre class="r"><code>10.50 * 200L</code></pre>
+<pre><code>## [1] 2100</code></pre>
+<ul>
+<li>The total cost of purchasing mangoes on day 1: 21.15 * 50.</li>
+</ul>
+<pre class="r"><code>21.15*50</code></pre>
+<pre><code>## [1] 1057.5</code></pre>
+<ul>
+<li>The total cost of purchasing lemons on day 1: 3.20 * 500.</li>
+</ul>
+<pre class="r"><code>3.20*500</code></pre>
+<pre><code>## [1] 1600</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Compute the overall cost of purchasing all fruits on day 1, in a single expression.</li>
+</ol>
+<ul>
+<li>Sum up the output values from the previous question.</li>
+</ul>
+<pre class="r"><code>10.50 * 200L + 21.15*50 + 3.20*500</code></pre>
+<pre><code>## [1] 4757.5</code></pre>
+</div>
+<div id="dealing-with-operator-priority-rules" class="section level1">
+<h1>4. Dealing with Operator Priority Rules</h1>
+<ol style="list-style-type: decimal">
+<li>Your mission is to determine the overall predicted selling cost of all fruits on day 1.</li>
+</ol>
+<p>Type in the code editor the following operations.</p>
+<ul>
+<li>The predicted selling cost of apples on day 1: 12.10 * 200L.</li>
+</ul>
+<pre class="r"><code>12.10 * 200L</code></pre>
+<pre><code>## [1] 2420</code></pre>
+<ul>
+<li>The predicted selling cost of mangoes on day 1: 24.90 * 50L.</li>
+</ul>
+<pre class="r"><code>24.90 * 50L</code></pre>
+<pre><code>## [1] 1245</code></pre>
+<ul>
+<li>The predicted selling cost of lemons on day 1: 4.99 * 500L.</li>
+</ul>
+<pre class="r"><code>4.99 * 500L</code></pre>
+<pre><code>## [1] 2495</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Compute the overall predicted selling cost of all fruits on day 1.</li>
+</ol>
+<ul>
+<li>Combine the previous three simple expressions into a complex expression using the addition operator.</li>
+</ul>
+<pre class="r"><code>12.10 * 200L+24.90 * 50L+4.99 * 500L</code></pre>
+<pre><code>## [1] 6160</code></pre>
+</div>
+<div id="identifying-expressions-data-type" class="section level1">
+<h1>5. Identifying Expression’s data type</h1>
+<p>Use one of this character literals (“numeric” or “integer” or “logical”) to answer the following questions.</p>
+<ol style="list-style-type: decimal">
+<li>What is the type of the following expression: 2 * 2 * 2.</li>
+</ol>
+<pre class="r"><code>&quot;numeric&quot;</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>What is the type of the following expression: 2L * 2L * 2.</li>
+</ol>
+<pre class="r"><code>&quot;numeric&quot;</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>What is the type of the following expression: 2L * 2L * 2L.</li>
+</ol>
+<pre class="r"><code>&quot;integer&quot;</code></pre>
+<pre><code>## [1] &quot;integer&quot;</code></pre>
+</div>
+<div id="dealing-variables-with-naming-rules" class="section level1">
+<h1>6. Dealing Variables with Naming rules</h1>
+<p>To name a variable, there are five naming rules to follow.</p>
+<ol style="list-style-type: decimal">
+<li>Variable names consists of letters (upper or lower case), numbers, a dot (.), or an underscore (_).</li>
+<li>We can begin a variable name with a letter or a dot, but dots cannot be followed by a number.</li>
+<li>We cannot begin a variable name with a number.</li>
+<li>No special characters are allowed, e.g., spaces, operator’s symbols, &quot;, parentheses.</li>
+<li>We cannot use a keyword already used and interpreted by R as a variable name.</li>
+</ol>
+<p>Here is a list of variable names, numbered from 1 to 5. Using naming rules, answer TRUE if the variable name is valid and FALSE otherwise. Store each answer (TRUE/FALSE) in variables named q_1 to q_5, respectively (one answer per line). An example is given in the editor.</p>
+<ol style="list-style-type: decimal">
+<li>.2var</li>
+<li>numberOfFruit</li>
+<li>apple variable</li>
+<li>“var”</li>
+<li>age20+</li>
+</ol>
+<pre class="r"><code>q_0 &lt;- FALSE
+q_1=F
+q_2=T
+q_3=F
+q_4=F
+q_5=F</code></pre>
+</div>
+<div id="updating-variables" class="section level1">
+<h1>7. Updating variables</h1>
+<pre class="r"><code>total_purchase_cost=10.50 * 200L + 21.15 * 50L + 3.20 * 500L
 
+total_selling_cost=12.10 * 200 + 24.90 * 50 + 4.99 * 500
+
+profit_1=total_selling_cost-total_purchase_cost
+
+print(profit_1)</code></pre>
+<pre><code>## [1] 1402.5</code></pre>
+</div>
+<div id="identifying-variables-data-type" class="section level1">
+<h1>8. Identifying variables data type</h1>
+</div>
 
 
 
