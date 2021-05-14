@@ -198,3 +198,44 @@ print(profit_1)
 
 # 8. Identifying variables data type
 
+```{r}
+q_1=class(total_purchase_cost)
+
+q_2=class((total_selling_cost))
+
+q_3=class(profit_1)
+```
+
+# 9. R syntax: best practice
+
+So far we've used space characters between numbers and operators (+, -, *, /, ^ are operators). For instance, we've used 2 * 2 * 2 instead of 2*2*2. But R's syntax rules do not enforce this, so both 2 * 2 * 2 and 2*2*2 will run correctly.
+
+You would also have noticed that we use _ to separate the words in our variable name. For instance, we've used total_purchase_cost instead of something else. Once again R's syntax rules do not impose this style on you. As long as you respect the naming rules, we have learned, your code will run correctly.
+
+The computer executes code from the first line downwards and ignores blank lines. Besides blank lines, the computer also ignores any sequence of characters that comes to the right of the # symbol. This sequence of characters that follows the # symbol is called a code comment. We can also use code comments to add information about our code.
+
+
+![R Comments](https://dq-content.s3.amazonaws.com/513/comment.gif)
+
+In the example above, we use # before the last two expressions, and we see their outputs are not displayed anymore. Those lines codes are not executed when it's preceded by #. We also use the # to add information to the first line code, and we can see that what we've written is not taken into account.
+
+We encourage you to use those elements in your code, as this helps with readability.
+
+# 10. Next Steps
+
+Congratulations! You have completed the second mission of the Introduction to Programming in R course.
+
+In this mission, you got a feel for working in our interface and learned some key basics of the R language as you analyzed data:
+
+* Writing expressions,
+* Creating and working with variables.
+
+In the next mission, we'll learn how to deal with logical expressions.
+
+Advice and Challenge Our advice at the moment is to continue practicing everything we've learned so far.
+
+* Get familiar with the arithmetic expressions.
+* Get familiar with the variables and syntax rules we have learned.
+
+For now, click the "Next" button below to read and download the summary of this mission. On the next screen, you'll also be able to click the "Finish" button, which will mark this mission as complete for you.
+
