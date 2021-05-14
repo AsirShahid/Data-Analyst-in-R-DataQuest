@@ -8,3 +8,98 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+# 1. Revisiting Logical literals
+
+|   | day | supply Day | item      | purchase Price | selling Price | item available | item sold |
+|---|-----|------------|-----------|----------------|---------------|----------------|-----------|
+| 1 | 1L  | TRUE       | "Apple"   | 10.50          | 12.10         | 200L           | 0L        |
+| 2 | 1L  | TRUE       | "Mangoes" | 21.15          | 24.90         | 50L            | 0L        |
+| 3 | 1L  | TRUE       | "Lemon"   | 3.20           | 4.99          | 500L           | 0L        |
+| 4 | 2L  | FALSE      | "Apple"   | 10.50          | 12.10         | 188L           | 12L       |
+| 5 | 2L  | FALSE      | "Mangoes" | 21.15          | 24.90         | 47L            | 3L        |
+| 6 | 2L  | FALSE      | "Lemon"   | 3.20           | 4.99          | 476L           | 24L       |
+
+
+Use the logical literals (TRUE or FALSE) to tell if these statements are correct or not (write them in order of statements and one answer per line).
+
+The "false" literal is represented by False in R.
+
+The "true" literal is represented by T or TRUE in R.
+
+No matter how I write "true" and "false" – TRUE, True, tRue, false – R interprets them as logical literals.
+
+
+
+```{r}
+FALSE
+
+TRUE
+
+FALSE
+```
+
+
+# 2. Relational operators
+
+```{r}
+12L>24L
+
+10.5==21.15
+```
+
+# 3. Comparing Arithmetic Expressions
+
+```{r}
+apple_sold=12.1*12L
+lemon_sold=4.99*24L
+
+logical_var=apple_sold==lemon_sold
+```
+
+# 4. Logical operators
+
+![Truth Tables](https://dq-content.s3.amazonaws.com/517/logical_operators.svg)
+
+```{r}
+TRUE || FALSE
+F && T
+!F
+```
+
+# 5. Combining logical expression
+
+If we have to establish a general priority rule of including all the operators we learned so far we will say that the elements are evaluated in the following order:
+
+1. Parentheses,
+2. Exponentiation,
+3. Division and multiplication,
+4. Addition and subtraction,
+5. Relational operators,
+6. Logical operators.
+
+```{r}
+apple_profit=12.1-10.5
+mango_profit=24.9-21.15
+lemon_profit=4.99-3.2
+
+logical_var=(apple_profit<=mango_profit) || (apple_profit>lemon_profit)
+```
+
+# 6. Next Steps
+
+Congratulations! You have completed the third mission of the Introduction to Programming in R course. In this mission, we learned how to:
+
+* Generate logical values with logical operations,
+* Combine logical and arithmetic expressions,
+* Create complex logical expressions with logical operators.
+
+In the next mission, we'll delve deeper into what a data analysis workflow is about. We'll learn more skills crucial for using R to work with data, like loading, exploring, visualizing data.
+
+Advice and Challenge Our advice at the moment is to continue practicing everything we've learned so far.
+
+* Get familiar with the arithmetic expressions.
+* Get familiar with the logical expressions.
+
+For now, click the Next button below to read and download the summary of this mission. On the next screen, you'll also be able to click the Finish button, which mark this mission as complete for you.
+
