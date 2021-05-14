@@ -1,0 +1,10 @@
+---
+title: 'Data Manipulation with R: Basics'
+author: "Mohammed Shahid"
+date: "5/14/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
